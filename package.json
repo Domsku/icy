@@ -3,7 +3,7 @@
   "description": "Api to login, read and push data towards ICY e-thermostaat",
   "version": "0.0.1",
   "scripts": {
-    "start": "index.js"
+    "start": "node index.js"
   },
   "author": {
     "name": "Dominique Rienties"
