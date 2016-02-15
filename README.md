@@ -24,3 +24,8 @@ npm install
 npm start
 ```
 The server will be running on your localhost port 8000
+
+## Using it
+Before you can get and set temperatures. You will need to login, to do this you will need to perform a POST towards `/login` with your username and password.
+
+After logging in successfully you will be presented some data. In this data a token and an uid will be present. You will need to use the token for both getting and setting temperature. The uid is only necessary for setting temperatures.
